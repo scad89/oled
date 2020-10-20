@@ -1,7 +1,3 @@
-import time
-start_time = time.time()
-
-
 def find_double_ints(ls):
 
     ls.sort()
@@ -20,4 +16,3 @@ for i in range(int(input('How many items does the list contain: '))):
     ls.append(num)
 
 find_double_ints(ls)
-print("Process finished --- %s seconds ---" % (time.time() - start_time))
